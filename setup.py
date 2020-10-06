@@ -24,7 +24,7 @@ setup(
     ],
     description='Celery integration for django-tenant-schemas and django-tenants',
     install_requires=[
-        'celery',
+        'celery==4.4.7',
     ],
     packages=find_packages(),
     python_requires=">=3.6",
